@@ -1,0 +1,27 @@
+### GET request to example server
+POST localhost:8080/users/create
+Content-Type: application/json
+
+{
+    "name": "Otto Souza",
+    "email": "ottoquinho@gmail.com",
+  "password": "123456"
+}
+
+
+###
+
+GET localhost:8080/users
+content-type: application/json
+###
+
+
+POST localhost:8080/email
+content-type: application/json
+
+{
+ "email": "ottoquinho@gmail.com",
+  "texto": "Olá, tudo bem?"
+}
+
+###
